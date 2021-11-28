@@ -1,10 +1,9 @@
 {
   "dependencies": {
-    "com.cysharp.messagepipe": "https://github.com/Cysharp/MessagePipe.git?path=src/MessagePipe.Unity/Assets/Plugins/MessagePipe",
-    "com.cysharp.messagepipe.vcontainer": "https://github.com/Cysharp/MessagePipe.git?path=src/MessagePipe.Unity/Assets/Plugins/MessagePipe.VContainer",
     "com.cysharp.unitask": "2.2.5",
     "com.harumak.unityscreennavigator": "https://github.com/Haruma-K/UnityScreenNavigator.git?path=/Assets/UnityScreenNavigator",
     "com.neuecc.unirx": "7.1.0",
+    "com.unity.addressables": "1.19.11",
     "com.unity.collab-proxy": "1.15.1",
     "com.unity.feature.development": "1.0.1",
     "com.unity.ide.rider": "3.0.7",

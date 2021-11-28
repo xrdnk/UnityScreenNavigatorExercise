@@ -236,7 +236,7 @@ GameObject:
   - component: {fileID: 63531886}
   - component: {fileID: 63531885}
   m_Layer: 5
-  m_Name: TitleModalContainer
+  m_Name: ModalContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: ExerciseScene_ModalContainer
-  _overrideBackdropPrefab: {fileID: 0}
+  _overrideBackdropPrefab: {fileID: 4270110354803295690, guid: 76a96b6cc91bfcb44b52f69d1f22f4b5, type: 3}
 --- !u!114 &63531886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -375,7 +375,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &349593055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -408,7 +408,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ReferenceResolution: {x: 1280, y: 720}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3

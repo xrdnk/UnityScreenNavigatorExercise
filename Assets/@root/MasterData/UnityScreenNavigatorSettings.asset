@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b15ff60fcf110249b1f95c0fdfe5e8e, type: 3}
+  m_Name: UnityScreenNavigatorSettings
+  m_EditorClassIdentifier: 
+  _sheetEnterAnimation: {fileID: 11400000, guid: 1e8628ec15d68034a94b479acc763491, type: 2}
+  _sheetExitAnimation: {fileID: 11400000, guid: fe8f09d9d7304ad4ab37beb2611f876a, type: 2}
+  _pagePushEnterAnimation: {fileID: 11400000, guid: 722164af3d6b5654d8f047db1c918b6f, type: 2}
+  _pagePushExitAnimation: {fileID: 11400000, guid: 4391eee5a39b50a40a69adfffbe6d3fe, type: 2}
+  _pagePopEnterAnimation: {fileID: 11400000, guid: 1b86e734fe43a754dac2d2b95b9dac97, type: 2}
+  _pagePopExitAnimation: {fileID: 11400000, guid: cd9422d10cea4474ba76019d7ce4ae1c, type: 2}
+  _modalEnterAnimation: {fileID: 11400000, guid: 4ab9c6555e5568b4bbc632c10018e7b3, type: 2}
+  _modalExitAnimation: {fileID: 11400000, guid: 86255c730131d304697244f3bb9acb7d, type: 2}
+  _modalBackdropEnterAnimation: {fileID: 11400000, guid: fc34fc06db59c8c4ea958df713f0118a, type: 2}
+  _modalBackdropExitAnimation: {fileID: 11400000, guid: 1cdd2e5061d3ec84086fd9648675c6f3, type: 2}
+  _modalBackdropPrefab: {fileID: 4270110354803295690, guid: 76a96b6cc91bfcb44b52f69d1f22f4b5, type: 3}
+  _assetLoader: {fileID: 11400000, guid: 445b4a7248242d345851e2079df8ed31, type: 2}
+  _enableInteractionInTransition: 0

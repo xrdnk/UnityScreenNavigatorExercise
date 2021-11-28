@@ -1,4 +1,5 @@
-﻿using Deniverse.UnityScreenNavigatorExercise.Application.Constant;
+﻿using System.Collections;
+using Deniverse.UnityScreenNavigatorExercise.Application.Constant;
 using UniRx;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,7 +16,7 @@ namespace Deniverse.UnityScreenNavigatorExercise.Presentation.View
 
         PageContainer _titlePageContainer;
 
-        void Start()
+        public override IEnumerator Initialize()
         {
             _titlePageContainer = PageContainer.Find(PageContainerConstants.ExerciseScenePageContainerName);
 
@@ -23,11 +24,14 @@ namespace Deniverse.UnityScreenNavigatorExercise.Presentation.View
                 .OnClickAsObservable()
                 .Subscribe(_ => OnEnterTitleButtonClicked())
                 .AddTo(this);
+
+            yield break;
         }
 
         void OnEnterTitleButtonClicked()
         {
-            _titlePageContainer.Push(PageConstants.TitlePagePrefab(), false);
+            _titlePageContainer.Pop(false);
+            // _titlePageContainer.Push(PageConstants.TitlePagePrefab, false, false);
         }
     }
 }

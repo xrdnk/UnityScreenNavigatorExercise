@@ -27,7 +27,7 @@ namespace Deniverse.UnityScreenNavigatorExercise.Application.Sequencer
             _titlePageContainer.Push
             (
                 // タイトルページのプレハブのキー
-                resourceKey: PageConstants.TitlePagePrefab(),
+                resourceKey: PageConstants.TitlePagePrefab,
                 // アニメーションを再生するかどうか
                 playAnimation: false,
                 // スタッキングを行うか,
