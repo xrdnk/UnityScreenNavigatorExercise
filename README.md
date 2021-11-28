@@ -24,6 +24,8 @@ Copyright (c) 2019 Yoshifumi Kawai / Cysharp, Inc.
 
 Copyright (c) 2020 hadashiA
 
+- [Otologic](https://otologic.jp/) / CC BY 4.0
+
 # License
 
 This project is licensed under the MIT License excluding third party assets.
