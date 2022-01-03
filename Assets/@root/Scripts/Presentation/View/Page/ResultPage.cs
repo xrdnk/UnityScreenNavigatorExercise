@@ -18,7 +18,7 @@ namespace Deniverse.UnityScreenNavigatorExercise.Presentation.View
 
         public override IEnumerator Initialize()
         {
-            _titlePageContainer = PageContainer.Find(PageContainerConstants.ExerciseScenePageContainerName);
+            _titlePageContainer = PageContainer.Find(PCConstants.ExerciseScenePageContainerName);
 
             _button_EnterTitle
                 .OnClickAsObservable()

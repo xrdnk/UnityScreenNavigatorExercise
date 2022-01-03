@@ -24,8 +24,8 @@ namespace Deniverse.UnityScreenNavigatorExercise.Presentation.View
 
         public override IEnumerator Initialize()
         {
-            _pageContainer = PageContainer.Find(PageContainerConstants.ExerciseScenePageContainerName);
-            _modalContainer = ModalContainer.Find(ModalContainerConstants.ExerciseSceneModalContainerName);
+            _pageContainer = PageContainer.Find(PCConstants.ExerciseScenePageContainerName);
+            _modalContainer = ModalContainer.Find(MCConstants.ExerciseSceneModalContainerName);
 
             _button_EnterMain
                 .OnClickAsObservable()

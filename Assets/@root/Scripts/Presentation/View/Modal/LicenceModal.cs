@@ -33,7 +33,7 @@ namespace Deniverse.UnityScreenNavigatorExercise.Presentation.View
 
         void Start()
         {
-            _modalContainer = ModalContainer.Find(ModalContainerConstants.ExerciseSceneModalContainerName);
+            _modalContainer = ModalContainer.Find(MCConstants.ExerciseSceneModalContainerName);
 
             _button_HideLicence
                 .OnClickAsObservable()

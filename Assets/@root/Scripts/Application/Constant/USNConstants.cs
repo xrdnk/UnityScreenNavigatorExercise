@@ -22,7 +22,7 @@ namespace Deniverse.UnityScreenNavigatorExercise.Application.Constant
     /// <summary>
     /// ページコンテナ定数
     /// </summary>
-    public static class PageContainerConstants
+    public static class PCConstants
     {
         public static string ExerciseScenePageContainerName = "ExerciseScene_PageContainer";
     }
@@ -41,7 +41,7 @@ namespace Deniverse.UnityScreenNavigatorExercise.Application.Constant
     /// <summary>
     /// モーダルコンテナ定数
     /// </summary>
-    public static class ModalContainerConstants
+    public static class MCConstants
     {
         public static string ExerciseSceneModalContainerName = "ExerciseScene_ModalContainer";
     }

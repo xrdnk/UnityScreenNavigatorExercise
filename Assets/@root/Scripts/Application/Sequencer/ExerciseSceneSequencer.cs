@@ -20,7 +20,7 @@ namespace Deniverse.UnityScreenNavigatorExercise.Application.Sequencer
         void EntryPoint()
         {
             // PageContainer.Find は Start 以降ではないと正常に読み込まれない (Awake 以前だと null になる)
-            _titlePageContainer = PageContainer.Find(PageContainerConstants.ExerciseScenePageContainerName);
+            _titlePageContainer = PageContainer.Find(PCConstants.ExerciseScenePageContainerName);
             Assert.IsNotNull(_titlePageContainer);
 
             // 最初はタイトルページコンテナオブジェクトの子にタイトルページプレハブをプッシュする

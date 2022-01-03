@@ -49,7 +49,7 @@ namespace Deniverse.UnityScreenNavigatorExercise.Presentation.View
             _currentSheetIndex = 0;
             await _sheetContainer.Show(_sheetIds[_currentSheetIndex], false);
 
-            _titlePageContainer = PageContainer.Find(PageContainerConstants.ExerciseScenePageContainerName);
+            _titlePageContainer = PageContainer.Find(PCConstants.ExerciseScenePageContainerName);
 
             _button_Prev
                 .OnClickAsObservable()
